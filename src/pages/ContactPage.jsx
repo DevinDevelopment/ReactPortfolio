@@ -14,10 +14,7 @@ function ContactPage() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    const { target } = e;
-    const name = target.name;
-    const email = target.email;
-    const message = target.message;
+    const { name, email, message } = e.target;
 
     if (!validateEmail(email) || !name) {
       setErrorMessage('Invalid email');

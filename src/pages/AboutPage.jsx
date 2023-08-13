@@ -15,7 +15,7 @@ export default function AboutPage() {
         <div className="col-6">
           <div className="mt-5 pt-5">
             <p>
-              Greetings, I'm [Your Name], a dedicated web developer with a strong command of HTML, CSS, JavaScript, Node.js, Express.js, Bootstrap, and React. My journey into the digital realm began with a curiosity that evolved into a 
+              Greetings, I'm Devin Nunez, a dedicated web developer with a strong command of HTML, CSS, JavaScript, Node.js, Express.js, Bootstrap, and React. My journey into the digital realm began with a curiosity that evolved into a 
               passion for creating dynamic and user-centric web experiences. Proficient in front-end technologies, I excel in translating designs into responsive interfaces, utilizing frameworks like Bootstrap and React to craft engaging
               user journeys. My expertise extends to the backend, where I leverage Node.js and Express.js to build efficient and seamless applications. Beyond traditional web development, I've delved into CRM systems, specializing in Dynamics 365.
               I utilize JavaScript for crafting intricate front-end components and master C# plugins to optimize workflows within the CRM environment. Collaborative development is paramount in today's landscape, and I excel in using GitHub for streamlined teamwork and version control. Beyond code, 
