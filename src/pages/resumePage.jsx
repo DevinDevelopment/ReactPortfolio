@@ -1,66 +1,49 @@
-// This is a static page mocking an "About Us" section for our fake user data
+import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
+
 export default function ResumePage() {
-    return (
-      <div className="container pt-4">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
-        </p>
-        <section className="features-icons bg-light text-center m-4">
-          <div className="container">
-            <div className="row p-2">
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-window m-auto text-primary" />
-                  </div>
-                  <h3>Fully Responsive</h3>
-                  <p className="lead mb-0">
-                    This theme will look great on any device, no matter the size!
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-layers m-auto text-primary" />
-                  </div>
-                  <h3>Bootstrap 5 Ready</h3>
-                  <p className="lead mb-0">
-                    Featuring the latest build of the new Bootstrap 5 framework!
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-terminal m-auto text-primary" />
-                  </div>
-                  <h3>Easy to Use</h3>
-                  <p className="lead mb-0">
-                    Ready to use with your own content, or customize the source
-                    files!
-                  </p>
-                </div>
-              </div>
+  return (
+    <>
+      <div className="container mt-4">
+        <div className="row">
+          <div className="col-12 col-md-6">
+            <h1 className='mb-5'>My Web Development Skills:</h1>
+            <h2>Front-End:</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>React</li>
+              <li>Bootstrap</li>
+              <li>Javascript</li>              
+            </ul>
+            <h2>Back-End:</h2>
+            <ul className='mb-2'>
+              <li>Javascript</li>
+              <li>Node.js</li>
+              <li>express.js</li>
+              <li>mySQL</li>
+              <li>mongoDB</li>
+              <li>Mongoose</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className='container'>
+          <div className='row '>
+            <div className='col-12 col-md-6'>
+              <h1 className="mt-5">Resume</h1>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Download my <span> </span>
+                <span>
+                  <Link to="/DevinsResume.docx" target="_blank" download>resume</Link>
+                </span>
+                <span> </span>here!
+              </p>
             </div>
           </div>
-        </section>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
-        </p>
-      </div>
-    );
-  }
-  
+        </div>
+        <div className="pb-4">   
+        <Footer/>
+        </div>
+    </>
+  );
+}

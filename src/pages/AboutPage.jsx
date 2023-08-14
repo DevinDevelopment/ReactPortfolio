@@ -1,18 +1,17 @@
-// This is a static page mocking an "About Us" section for our fake user data
-import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 import portrait from '../assets/images/me.jpg'
+import '../Index.css'
 
 export default function AboutPage() {
   return (
     <>
-    <div className="container mt-4">
+    <div className="container mt-4 background">
       <div className="row">
-        <h1 className="mb-5">About me</h1>
-        <div className="col-6">
+        <h1 className="mb-5 title" >About me</h1>
+        <div className="col-lg-6">
           <img className="rounded-circle shadow-4-strong img-fluid" alt="image" src={portrait} />
         </div>
-        <div className="col-6">
+        <div className="col-lg-6">
           <div className="mt-5 pt-5">
             <p>
               Greetings, I'm Devin Nunez, a dedicated web developer with a strong command of HTML, CSS, JavaScript, Node.js, Express.js, Bootstrap, and React. My journey into the digital realm began with a curiosity that evolved into a 
@@ -25,7 +24,11 @@ export default function AboutPage() {
         </div>
       </div>
     </div>
-    <Footer/>
+    <div className="row footer">
+      <div className="pb-4">   
+          <Footer/>
+      </div>
+    </div>
     </>
   );
 }
