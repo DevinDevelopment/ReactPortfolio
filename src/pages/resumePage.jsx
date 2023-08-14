@@ -7,7 +7,7 @@ export default function ResumePage() {
       <div className="container mt-4">
         <div className="row">
           <div className="col-12 col-md-6">
-            <h1 className='mb-5'>My Web Development Skills:</h1>
+            <h1 className='mb-5 title'>My Web Development Skills:</h1>
             <h2>Front-End:</h2>
             <ul>
               <li>HTML</li>

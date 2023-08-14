@@ -12,7 +12,7 @@ export default function Projects() {
     <>
         <div className="container">
           <div className="row mt-4">
-            <h1>Projects</h1>
+            <h1 className='title'>Projects</h1>
             <div className="col-6 mt-4">
               <Link key={1} to="https://github.com/DevinDevelopment/EcommerceBackend">
                 <img

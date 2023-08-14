@@ -60,7 +60,7 @@ function ContactPage() {
     <>
     <div className="container mt-4">
       <div>
-      <h1 className=''>Contact me</h1>
+      <h1 className='title'>Contact me</h1>
 
         <div className='row'>
           <div className='col-12'>
