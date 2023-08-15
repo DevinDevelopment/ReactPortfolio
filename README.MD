@@ -34,12 +34,6 @@ N/a
 
 ![Website screenshot](./src/assets/images/Capture2.PNG)
 
-## Videos Demonstrating application:
-
-application functionality showcase:
-https://drive.google.com/file/d/1Jf76aNdXSAlJR0ENvv40R2dS7FPKQBXe/view
-
-
 ## Deployment
 
 Repo: https://github.com/DevinDevelopment/ReactPortfolio
