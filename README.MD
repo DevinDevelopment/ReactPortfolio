@@ -43,6 +43,7 @@ https://drive.google.com/file/d/1Jf76aNdXSAlJR0ENvv40R2dS7FPKQBXe/view
 ## Deployment
 
 Repo: https://github.com/DevinDevelopment/ReactPortfolio
+Deployment: https://64db754c5541aa5ef97b1bc8--luminous-semifreddo-1404bc.netlify.app/
 
 # Tech Stack
 
