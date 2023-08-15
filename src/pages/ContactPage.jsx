@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../Index.css'
 
+//Setting up state for Contact Form
 function ContactPage() {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
@@ -17,11 +18,13 @@ function ContactPage() {
 
   };
 
+// Function to check if the email input matches a valid email 
   const validateEmail = (email) => {
     const re = /[a-zA-Z0-9+._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+/;
     return re.test(String(email).toLowerCase());
   }
 
+// Function to allow us to type into fields
   const handleInputChange = (e) => {
     const { name, value } = e.target;
       if (name === 'email') {
@@ -33,6 +36,7 @@ function ContactPage() {
       }
   };
 
+// On-click Function That sets the properties to state then prints a message with the information in state then clears the state/
   const handleFormSubmit = (e) => {
     e.preventDefault();
 

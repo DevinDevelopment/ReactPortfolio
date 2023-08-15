@@ -5,6 +5,7 @@ export default function Nav({ links }) {
     },
   };
 
+// This will iterate through all of the links from the link prop and render
   return (
     <nav className="navbar navbar-expand-lg" id="navbarSupportedContent" style={styles.navBG}>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">

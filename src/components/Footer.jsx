@@ -1,6 +1,7 @@
 // Bringing in the required import from 'react-router-dom'
 import { Link } from 'react-router-dom';
 
+// Links for footer icons
 export default function Footer() {
   return (
     <footer className="icons text-center mt-5">

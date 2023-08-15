@@ -1,3 +1,4 @@
+// Imports for our Portfolio page
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Social from '../assets/images/socialSite.jpg'
@@ -7,6 +8,7 @@ import Weatherapp from '../assets/images/weatherApp.png'
 import Footer from './Footer';
 import '../Index.css'
 
+//This function sets the photots/links for the project section. 
 export default function Projects() {
   return (
     <>
